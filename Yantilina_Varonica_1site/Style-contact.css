@@ -1,0 +1,176 @@
+html {
+box-sizing: border-box;
+}
+*, *:after, *:before {
+    box-sizing: inherit;
+} 
+.container {
+    display: flex;
+    position: relative;
+    width: 1920px;
+    height: 1090px;
+}
+.photo {
+    position: absolute;   
+    width: 1920px;
+    height: 1090px;
+    background-size: cover;
+
+    background-image: url(img/Contact.png);
+}
+.heading {
+    position: absolute;
+    width: 180px;
+    height: 96px;
+    left: 440px;
+    top: 103px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 82px;
+    line-height: 96px;
+/* identical to box height */
+
+    color: #FF0B00;
+}
+.heading2 {
+    position: absolute;
+    width: 183px;
+    height: 96px;
+    left: 440px;
+    top: 230px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 82px;
+    line-height: 96px;
+/* identical to box height */
+
+    color: #FF0B00;
+}
+.heading3 {
+    position: absolute;
+    width: 260px;
+    height: 96px;
+    left: 440px;
+    top: 357px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 82px;
+    line-height: 96px;
+/* identical to box height */
+
+    color: #FF0B00;
+}
+.mail {
+    position: absolute;
+    width: 648px;
+    height: 60px;
+    left: 738px;
+    top: 112px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: #FF0B00;
+}
+.telephone {
+    position: absolute;
+    width: 529px;
+    height: 75px;
+    left: 738px;
+    top: 300px;
+    text-decoration: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+/* identical to box height */
+
+    color: #FF0B00;
+}
+.address {
+    position: absolute;
+    width: 742px;
+    height: 150px;
+    left: 738px;
+    top: 430px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: #FF0B00;
+}
+.vk {
+    background-image: url(img/vk.png);
+    position: absolute;
+    width: 162px;
+    height: 94px;
+    left: 22px;
+    top: 846px;
+    background-size: cover;
+}
+.instagram {
+    background-image: url(img/instagram.png);
+    position: absolute;
+    width: 82px;
+    height: 84px;
+    left: 62px;
+    top: 958px;
+    background-size: cover;
+}
+.telegram {
+    background-image: url(img/telegram.png);
+    position: absolute;
+    width: 89px;
+    height: 89px;
+    left: 59px;
+    top: 739px;
+    background-size: cover;
+}
+.sidebar {
+    position: absolute;
+    width: 57px;
+    height: 38px;
+    left: 22px;
+    top: 31px;
+}
+.line {
+    position: absolute;
+    width: 57px;
+    height: 0px;
+    left: 22px;
+    top: 31px;
+
+    border: 4px solid rgba(255, 255, 255, 0.9);
+}
+.line2 {
+    position: absolute;
+    width: 57px;
+    height: 0px;
+    left: 22px;
+    top: 50px;
+
+    border: 4px solid rgba(255, 255, 255, 0.9);
+}
+.line3 {
+    position: absolute;
+    width: 57px;
+    height: 0px;
+    left: 22px;
+    top: 69px;
+
+    border: 4px solid rgba(255, 255, 255, 0.9);
+}
