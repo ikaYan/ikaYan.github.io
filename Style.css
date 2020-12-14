@@ -1,0 +1,101 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:after, *:before {
+    box-sizing: inherit;
+  } 
+  .container {
+    display: flex;
+    max-width: 100%;
+    max-height: 1024px;
+    margin: auto;
+    background-color: #b10900;
+     position: relative;
+  }
+  .container {
+    background-color: #FF0B00;
+    width: 100%;
+    height: 1024px;
+  }
+  .menu {
+    width: 100%;
+    height: 105px;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+  }
+  .main {
+    position: absolute;
+    width: 100%;
+    height: 41px;
+    left: 93px;
+    top: 29px;
+    
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 1;
+    font-size: 33px;
+    line-height: 41px;
+    text-decoration: none;
+    color: #FF0B00;
+  }
+  .portfolio {
+    position: absolute;
+    width: 188px;
+    height: 41px;
+    left: 424px;
+    top: 29px;
+    
+    font-family: 'Exo 2';
+    text-decoration: none;
+    font-weight: 1;
+    font-size: 33px;
+    line-height: 41px;
+    
+    color: #FF0B00;
+  }
+  .contact {
+    position: absolute;
+    width: 163px;
+    height: 41px;
+    left: 860px;
+    top: 29px;
+    
+    font-family: 'Exo 2';
+    text-decoration: none;
+    font-weight: 1;
+    font-size: 33px;
+    line-height: 41px;
+    
+    color: #FF0B00;
+  }
+  .vk {
+    background-image: url(img/vkte.png);
+    background-size: cover;
+    position: absolute;
+    width: 61px;
+    height: 35px;
+    left: 1360px;
+    top: 964px;
+  }
+  .instagram {
+    background-image: url(img/Inst.png);
+    background-size: cover;
+    position: absolute;
+    width: 38px;
+    height: 37px;
+    left: 1301px;
+    top: 962px;
+  }
+  .telegram {
+    background-image: url(img/tg.png);
+    background-size: cover;
+    position: absolute;
+    width: 42px;
+    height: 38px;
+    left: 1225px;
+    top: 961px;
+  }
+  a:hover {
+    color: #FF0B00;
+    opacity: 0.6;
+  }
