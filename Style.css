@@ -6,7 +6,7 @@ html {
   } 
   .container {
     display: flex;
-    max-width: 100%;
+    max-width: 1440px;
     max-height: 1024px;
     margin: auto;
     background-color: #b10900;
@@ -14,18 +14,18 @@ html {
   }
   .container {
     background-color: #FF0B00;
-    width: 100%;
+    width: 1440px;
     height: 1024px;
   }
   .menu {
-    width: 100%;
+    width: 1440px;
     height: 105px;
     background: rgba(255, 255, 255, 0.9);
     position: absolute;
   }
   .main {
     position: absolute;
-    width: 100%;
+    width: 107px;
     height: 41px;
     left: 93px;
     top: 29px;
